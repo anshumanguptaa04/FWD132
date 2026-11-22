@@ -43,3 +43,10 @@ body{
     color: rgb(144, 194, 252);
     padding: 15px;
 }
+
+.logo{
+    height: 56px;
+    margin: 10px 20px 0 20px;
+}
+
+

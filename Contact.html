@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <img href="C:\Users\USER\Desktop\AnshumanGupta132_SecureVault\assets\logo.png" alt="Website logo">
+            <img src="assets/logo.jpg" alt="Website logo" class="logo">
             <nav class="navb">
                 <b><a href="index.html">Home</a></b>
                 <b><a href="About.html">About</a></b>
@@ -32,12 +32,12 @@
             </div>
 
             <h2>Or send us a message:</h2>
-            <form action="contact.php">
+            <form action="contact.php" id="contactForm">
                 <p class="register">
-                    Name: <input type="text"><br>
-                    E-mail: <input type="text"><br>
-                    Subject: <input type="text"><br>
-                    Message: <br><textarea rows="5" cols="30"></textarea><br>
+                    Name: <input type="text" id="cname"><br>
+                    E-mail: <input type="text" id="cemail"><br>
+                    Subject: <input type="text" id="csubject"><br>
+                    Message: <br><textarea rows="5" cols="30" id="cmessage"></textarea><br>
                 </p>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button><br>
@@ -47,5 +47,6 @@
             <aside class="tip"><strong>TIP:</strong> Upload Your Certificates and Resume Now, To Access It Anywhere</aside>
             <p style="text-align: center; padding-top: 100px;">Copyright of this page is reserved to SecurVault</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
